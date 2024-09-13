@@ -1,31 +1,26 @@
-/* RESET */
+/* RESET*/
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
 a{
     text-decoration: none;
     color: inherit;
 }
-
 ul, ol, li{
     list-style: none;
 }
-
-/* FIM RESET */
+/* FIM RESET*/
 
 body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-inline:  80px;
+    padding-inline: 80px;
 }
-
 header{
     height: 200px;
-    background-color: lightblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,29 +28,57 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color:  rgb(255, 0, 0);
+    background-color: lightgray;
+    align-items: center;
 }
-.menu ul {
+.menu ul{
     display: flex;
     gap: 32px;
     font-size: 32px;
-}  
+}
 main{
     flex-grow: 1;
-    background-color: blueviolet;
+    display: flex;
 }
-
 .conteudo{
     width: 50%;
-    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 128px
+    
 }
+.conteudo h1{
+    font-size: 80px;
 
+}
+.conteudo p{
+    font-size: 48px;
+
+}
+.conteudo button{
+    height: 64px;
+    width: 300px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+
+}
+.social div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
 .destaque{
     width: 50%;
     background-color: aliceblue;
 }
-
 footer{
-height: 100px;
-background-color: lightgreen;
+    height: 100px;
+    background-color: lightgreen;
 }
