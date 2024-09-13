@@ -18,6 +18,9 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-size: cover; 
+    background-position: center; 
+
 }
 header{
     height: 200px;
@@ -71,17 +74,42 @@ main{
 .social div{
     height: 80px;
     width: 80px;
-    border-radius: 50%;
+    border-radius: 44%;
     background-color: lightgray;
+   
 }
-.destaque{
+
+.social div.a{
+    background-image: url(./img/Instagram_icon.png); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.social div.b{
+    background-image: url(./img/LinkedIn_logo_initials.png); 
+    background-size: cover; 
+    background-position: center; 
+}
+.social div.c{
+    background-image: url(./img/tiktok-logo.webp); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.destaque {
     width: 50%;
-    background-color: aliceblue;
+    min-height: 400px; /* Define uma altura mínima */
+    background-image: url(./img/carrillo.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    
 }
+
+
+
 footer{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
 }
